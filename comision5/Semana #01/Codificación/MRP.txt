@@ -1,0 +1,52 @@
+Hacerun programa para ingresar por teclado la cantidad de asientos totales en un avión y la cantidad de pasajes ocupados y luego calcular e informar el porcentaje de ocupación y el porcentaje de no ocupación del mismo.
+
+Ejemplo si el avión tiene 200 asientos totales y se vendieron 80 pasajes, el porcentaje de ocupación que se informará será de un 40% y el porcentaje de no ocupación será de un 60%.
+
+MRP
+
+1-IDENTIFICAR EL PROBLEMA.
+
+2-DATOS DE ENTRADA: ASIENTOS TOTALES - ASIENTOS OCUPADOS
+ -DATOS DE SALIDA: PO - PNO
+ -PROCESOS: TRANSFORMAR: D.ENTRADA EN D.SALIDA
+
+3-ESTRATEGIA.
+	1-PEDIR: ASIENTOS TOTALES, ASIENTOS OCUPADOS
+	2-CALCULAR: PO - PNO
+	3-MOSTRAR: PO - PNO
+
+4-DISEÑO ALGORITMO.
+	
+5-CODIFICACION.
+
+6-TESTING.
+
+7-DOCUMENTACION.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#include <iostream>
+using namespace std;
+
+int main(){
+
+	return 0;
+}
+
+
+
+
+

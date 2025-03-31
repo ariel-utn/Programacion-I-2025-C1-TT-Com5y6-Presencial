@@ -1,0 +1,36 @@
+Hacer un programa para ingresar por teclado la cantidad de asientos totales en un avión y la cantidad de pasajes ocupados y luego calcular e informar el porcentaje de ocupación y el porcentaje de no ocupación del mismo.
+
+Ejemplo si el avión tiene 200 asientos totales y se vendieron 80 pasajes, el porcentaje de ocupación que se informará será de un 40% y el porcentaje de no ocupación será de un 60%.
+
+MRP.
+
+1.IDENTIFICAR DEL PROBLEMA.
+	Leer y comprender lo que pide.
+
+2.ANALISIS DEL PROBLEMA
+	Identificar datos.
+
+	DE: ingresar: asientos totales, asientos ocupados
+
+	PROCESOS:  calcular porcentajes (ocup-no ocup)
+
+	DS: mostrar porcentajes (ocup-no ocup)
+
+3.PLANTEAR UNA ESTRATEGIA
+	
+	- pedir ingreso de DE
+	- calcular porcentaje:
+		- regla tres simples (calc. asiento ocup)
+		- diferencia entre total y ocupados (100 - porc ocup)
+	- mostrar en pantalla DS
+
+4.DISEÑO ALGORITMO
+
+5.CODIFICAR
+
+6.TESTEO y DEPURACIÓN
+
+7.DOCUMENTACIÓN
+
+
+	
