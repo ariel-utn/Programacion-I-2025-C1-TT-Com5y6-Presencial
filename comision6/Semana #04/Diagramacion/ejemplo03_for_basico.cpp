@@ -2,35 +2,35 @@
 
 using namespace std;
 /**
-    EL CICLO EXACTO (FOR) SE UTILIZA CUANDO:
-    - QUEREMOS QUE SE REPITAN INSTRUCCIONES UN NUMERO CONOCIDO DE VECES.
-    - ESA CANTIDAD PUEDE SER FIJA (CONSTANTE) O CALCULA (VARIABLE)
-
-    SINTAXIS:
-    VARIABLE DE CONTROL: int i;
-    VALOR INICIAL: i = 1;
-    CONDICION: i <= 5
-    INCREMENTO/DECREMENTO
-
-    INICIO  CONDICION           INCREMENTO
-    1       1 <= 5 ----> V      i++
-            2 <= 5 ----> V      i++
-            ..
-            6 <= 5 ----> F
-
-    IR HACIA DELANTE
-    MENOR  MENOR<=MAYOR   i++
-
-    IR HACIA ATRAS
-    MAYOR   MAYOR>=MENOR    i--
-
-    NOTA:
-    LA VARIABLE DE CONTROL LA PODEMOS USAR O MOSTRAR
-
-    NOOOOOO -> MODIFICAR NUNCA!!!!! ---> i = 999;
-
-
-*/
+ * EL CICLO FOR SE UTILIZA CUANDO:
+ * - NECESITAMOS REPETIR UN CONJUNTO DE INSTRUCCIONES UN NÚMERO CONOCIDO DE VECES.
+ * - ESE NÚMERO DE REPETICIONES PUEDE SER FIJO (UNA CONSTANTE) O CALCULADO (UNA VARIABLE).
+ *
+ * SINTAXIS BÁSICA:
+ *   int i;              // Variable de control
+ *   for (i = 1; i <= 5; i++) {
+ *       // Instrucciones a repetir
+ *   }
+ *
+ * EJECUCIÓN DEL CICLO:
+ *   Inicio      Condición     Incremento
+ *     i = 1      1 <= 5  -> V     i++
+ *                2 <= 5  -> V     i++
+ *     ...
+ *                6 <= 5  -> F     (Fin del ciclo)
+ *
+ * DIRECCIÓN DEL CICLO:
+ * - PARA ADELANTE (ASCENDENTE):
+ *     for (int i = menor; i <= mayor; i++)
+ *
+ * - PARA ATRÁS (DESCENDENTE):
+ *     for (int i = mayor; i >= menor; i--)
+ *
+ * NOTA IMPORTANTE:
+ * - SE PUEDE USAR LA VARIABLE DE CONTROL DENTRO DEL CICLO.
+ * - ¡NUNCA SE DEBE MODIFICAR MANUALMENTE LA VARIABLE DE CONTROL DENTRO DEL CICLO!
+ *   i = 999;  // Esto rompe la lógica del ciclo.
+ */
 int main(){
 
     /// PARA MOSTRAR LOS NUMEROS DEL 1 AL 5
