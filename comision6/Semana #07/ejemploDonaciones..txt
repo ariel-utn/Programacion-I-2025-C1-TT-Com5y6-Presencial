@@ -1,0 +1,6 @@
+2) Una fundación necesita recaudar $50000 para una causa benéfica. Se solicita un
+programa que permita registrar las donaciones que realiza la gente y que finalice la
+recaudación de dinero cuando se cumpla o supere el objetivo de los $50000. Luego, el
+programa debe emitir:
+A) La cantidad de donaciones recibidas.
+B) La donación más generosa.
