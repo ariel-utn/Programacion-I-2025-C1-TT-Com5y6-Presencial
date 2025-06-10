@@ -1,0 +1,34 @@
+22
+Una empresa comercializa 3 tipos de artículos y por cada venta realizada genera un registro con los siguientes datos:
+
+● Número de Artículo (1 a 3)
+● Cantidad Vendida
+
+Puede haber varios registros para el mismo artículo y el último registro se indica cuando se ingresa un número de artículo igual a 0. Se pide determinar e informar:
+
+a) El número de artículo que más se vendió en total.
+b) Los números de artículos que no registraron ventas.
+c) Cuántas unidades se vendieron del número de artículo 2.
+
+26 Una empresa con varias sucursales, dispone de un primer lote de registros con la siguiente información:
+
+● Número de artículo (1 a 5)
+● Precio Unitario
+
+Este lote se encuentra desordenado.
+Dispone de un segundo lote con la información de las ventas que se efectuaron en cada una de las sucursales, con la siguiente información:
+● Número de artículo (1 a 5)
+● Número de sucursal (1 a 3)
+● Cantidad vendida
+
+Puede haber más de un registro para el mismo artículo y para la misma
+sucursal.
+
+El último registro se indica con número de artículo igual a cero.
+Se pide determinar e informar:
+
+a) Cantidad total vendida por cada artículo.
+b) Monto total recaudado por la empresa. RECAUDADO: CV*PRE
+
+
+c) Número de sucursal que más artículos vendió en total. (sin discriminar porartículo)
